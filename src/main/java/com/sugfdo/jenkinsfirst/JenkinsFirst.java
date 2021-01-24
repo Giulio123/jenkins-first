@@ -12,8 +12,8 @@ public class JenkinsFirst {
 		return a + b;
 	}
 	
-	@Cacheable("diff")
-	public int diff(int a, int b) {
-		return a - b;
-	}
+//	@Cacheable("diff")
+//	public int diff(int a, int b) {
+//		return a - b;
+//	}
 }
